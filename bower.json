@@ -1,0 +1,21 @@
+{
+  "name": "angular-demo-two",
+  "version": "0.0.0",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "angularDemoTwoApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
