@@ -6,7 +6,8 @@ require.config({
     "angular": "../bower_components/angular/angular",
     "angular-route": "../bower_components/angular-route/angular-route",
     "angularAMD": "../bower_components/angularAMD/angularAMD",
-    "routeConfig": 'route/route'
+
+    "View1Ctrl": "controller_view1"
   },
   shim: {
     'angularAMD': ['angular'],
