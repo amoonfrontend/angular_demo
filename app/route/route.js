@@ -5,12 +5,12 @@ define(function () {
       '/home':{
         templateUrl: 'components/home/index.html',
         controller: 'HomeController',
-        controllerUrl: 'components/home/controller.js'
+        controllerUrl: 'components/home/controller'
       },
       '/view':{
         templateUrl: '/components/view/index.html',
         controller: 'ViewController',
-        controllerUrl: 'components/view/controller.js'
+        controllerUrl: 'components/view/controller'
       }
     }
   };
